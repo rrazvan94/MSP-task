@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWeb", "EmployeeWeb\EmployeeWeb.csproj", "{D5C2B3D2-C0E1-40DB-83D1-55E10E82B584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{01018930-B2FE-4BFB-AE79-507968FC52CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5ADF5AD6-FB3D-442E-ABD9-4034CE91FFC9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{FB8278AD-6B9F-4208-A682-E035852EFE4E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\EmployeeWeb.json = PublishScripts\Templates\EmployeeWeb.json
+		PublishScripts\Templates\EmployeeWeb.param.dev.json = PublishScripts\Templates\EmployeeWeb.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5C2B3D2-C0E1-40DB-83D1-55E10E82B584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C2B3D2-C0E1-40DB-83D1-55E10E82B584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C2B3D2-C0E1-40DB-83D1-55E10E82B584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C2B3D2-C0E1-40DB-83D1-55E10E82B584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5ADF5AD6-FB3D-442E-ABD9-4034CE91FFC9} = {01018930-B2FE-4BFB-AE79-507968FC52CF}
+		{FB8278AD-6B9F-4208-A682-E035852EFE4E} = {01018930-B2FE-4BFB-AE79-507968FC52CF}
+	EndGlobalSection
+EndGlobal
